@@ -80,7 +80,13 @@
                   </svg>
                 </div>
                 <div class="form-field">
-                  <input id="tel" type="tel" name="tel" class="input-form" />
+                  <input
+                    id="tel"
+                    type="tel"
+                    name="tel"
+                    placeholder=" "
+                    class="input-form"
+                  />
                   <label for="tel" class="form-label">Телефон</label>
                   <svg class="inputimg" width="18" height="18">
                     <use href="./image/sprite.svg#icon-inputphone"></use>
@@ -92,6 +98,7 @@
                     type="email"
                     name="mail"
                     class="input-form"
+                    placeholder=" "
                   />
                   <label for="email" class="form-label">Почта</label>
                   <svg class="inputimg" width="18" height="18">
@@ -109,10 +116,16 @@
                 </div>
                 <div>
                   <label for="politica" class="politica"
-                    ><input class="checkbox" id="politica" type="checkbox" />
+                    ><input
+                      class="checkbox"
+                      name="checkbox"
+                      value="politica"
+                      id="politica"
+                      type="checkbox"
+                    />
                     <span class="label-icon"></span>
                     Соглашаюсь с рассылкой и принимаю
-                    <a href="" class="politica-underline"> Условия договора</a>
+                    <a href="" class="politica-underline">Условия договора</a>
                   </label>
                 </div>
                 <button type="submit" class="button-submit">Отправить</button>
