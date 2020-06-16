@@ -306,7 +306,7 @@ img {
   position: absolute;
   top: 50%;
   left: 50%;
-  min-width: 528px;
+  width: 528px;
   min-height: 581px;
   transform: translate(-50%, -50%);
   border-radius: 4px;
@@ -469,10 +469,9 @@ textarea {
 }
 
 .politica {
-  display: flex;
   align-items: center;
+  justify-content: center;
   margin-left: 8px;
-  font-style: 400;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
